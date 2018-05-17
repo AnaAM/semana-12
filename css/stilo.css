@@ -1,0 +1,74 @@
+
+*{
+	font-family:Trebuchet MS;
+	margin:0;
+	padding:0;
+}
+body{
+	background:#F4C871;
+	width: 30%;
+	height: 40px;
+	background-image: url(file:///C:/Users/Becado-PBO/Desktop/Introducci%C3%B3n%20a%20web/semana%2012/img/manz.ico.ico);
+	background-size: 100%;
+	animation: movimiento 10s infinite linear;
+}
+
+}
+a{
+	margin-right: 10px;
+
+}
+nav{ background-color:  rgba(0,0,0,0.4);
+	margin-top: 60px;
+    padding: 10px 15px;
+	box-sizing: border-box;
+	width: 500px;
+	height: 650px;
+	border-radius: 7px;
+	text-decoration: none;
+}
+nav a{
+	margin-top: 10px;
+	margin-right: 1100px:;
+}
+.logo{
+	margin-left: 50px;
+}
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	float:left;
+	margin-top:15px;
+	padding-right: 60px;
+}
+ 
+header nav {
+	float:center;
+	margin-top:20px;
+	margin-right: auto;
+}
+ 
+header nav a {
+	display:inline-block;
+	color:#92D641;
+	text-decoration:none;
+	line-height:normal;
+	padding:10px 20px;
+	font-size:80px;
+	font-family:Trebuchet MS;
+
+}
+ 
+header nav a:hover {
+	background:#FF290C;
+	color:white;
+	border-radius:50px;
+}
+
+div aside{
+	margin-top: 2px;
+
+}
+
+
+z

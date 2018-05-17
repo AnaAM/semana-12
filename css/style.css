@@ -1,0 +1,225 @@
+*{
+	font-family:Trebuchet MS;
+	margin:0;
+	padding:0;
+}
+body{
+	background:white;
+}
+header {
+	width:100%;
+	overflow:hidden;
+	background:#F4C871;
+	margin-bottom:20px;
+	height:200px;
+	margin:auto;
+	
+}
+ .fotos{
+ 	width: 90%;
+ 	margin: auto;
+ 	list-style: none;
+ 	padding: 20px;
+ 	box-sizing: border-box;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-around;
+ }
+.wrapper {
+	width:90%; 
+	max-width:1700px; 
+	margin:auto; 
+	overflow:hidden; 
+}
+ 
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	float:left;
+	margin-top:15px;
+	padding-right: 30px;
+}
+ 
+header nav {
+	float:right;
+	margin-top:150px;
+}
+ 
+header nav a {
+	display:inline-block;
+	color:black;
+	text-decoration:none;
+	line-height:normal;
+	padding:10px 20px;
+	font-size:20px;
+	font-family:Trebuchet MS;
+
+}
+ 
+header nav a:hover {
+	background:#FF290C;
+	color:white;
+	border-radius:50px;
+}
+
+.contenedor{
+	width:80%;
+	max-width:100%;
+	margin-top:5%;
+	float:right;
+	margin: 0 auto;
+	background: white;
+}
+
+
+
+/*MENULATERAL*/
+}
+
+.mochilas{
+background:white;
+float: center;
+}
+.contenedor2{
+	width:100%;
+	margin:20px;
+	float:left;
+	overflow:hidden;
+	
+}
+
+.contenedor2 div{
+	overflow:hidden;
+	float:left;
+	background:red;
+	max-width:27%;
+	margin:20px;
+	padding:20px;
+}
+
+.contenedor3{
+	width:100%;
+	margin:20px;
+	float:left;
+	overflow:hidden;
+	
+}
+.main{
+	float: right;
+	width: 500px;
+	background-color: white;
+	margin-top: 70px;
+	margin-right: 720px;
+}
+#centro{
+	 width: 1100px;
+   height: 150px;
+   margin-top: 120px;
+}
+
+.aside{
+	width:99%;
+	padding:10px;
+	background:#FF290C;
+	margin-top:10px;
+	height: 40px;
+
+}
+div aside{
+	margin-top: 2px;
+
+}
+p{
+	color:black;
+	padding:2px;
+	margin:10px;
+	font-size: 20px;
+}
+
+.aside p{
+	float: right;
+    position: absolute;
+    margin-left: 550px;
+	font-size: 36px;
+	margin-top: auto;
+	
+}
+
+section {
+  display: flex;
+  margin:20px;
+  width: 500px;
+
+}
+
+.pic{
+	display: none;
+
+}
+
+.pic:target{
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+}
+.pic h3{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+}
+.variantes{
+	width: 100%;
+	height: 50%;
+}
+
+.variantes a{
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.variantes a:nth-child(2){
+	margin: 0;
+	height: 100%;
+}
+
+.variantes img {
+	width: 500px;
+	height: 100%;
+	max-width: 100%
+	border:7px solid #fff;
+	box-sizing: border-box;
+}
+
+
+
+article {
+  padding: 10px;
+  text-align: right;
+  width: 150%;
+  margin-top: 30px;
+  
+
+}
+article img {
+
+}
+
+footer{
+		
+	width:100%;
+	float:left;
+	background:#F4C871;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}

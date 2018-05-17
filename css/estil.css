@@ -1,0 +1,66 @@
+body{
+	background-color: red;
+	
+}
+
+form{
+	width: 450px;
+	margin: auto;
+	background-color:red;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 50px;
+	border-radius: 7px;
+	text-decoration: none;
+}
+
+h2{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+input, textarea {
+     width: 100%;
+     margin-bottom: 20px;
+     padding: 7px;
+     box-sizing: border-box;
+     font-size: 17px;
+     border: none; 
+}
+
+textarea {
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#boton {
+	background: white;
+	color:red;
+	padding: 20px;
+	font-family:Trebuchet MS;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+
+#botton{
+	background: #31384A;
+	color:#fff;
+	padding: 7px;
+}
+
+#botton:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 480px;) {
+	form{
+		width: 100%;
+	}
+}
